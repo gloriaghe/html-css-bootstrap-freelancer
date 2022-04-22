@@ -22,3 +22,31 @@ header nav {
     margin: auto;
 }
 
+/* section portfolio */
+
+#portfolio {
+    width: 98%;
+    margin: 0 auto;
+}
+
+#portfolio img {
+/* DEBUG */
+border: 2px black solid;
+height: 100px;
+}
+
+/* regole responsive */
+
+@media screen and (min-width: 768px) {
+    #portfolio {
+        width: 75%;
+    }
+    
+}
+
+@media screen and (min-width: 1199px) {
+    #portfolio {
+        width: 85%;
+    }
+    
+}
