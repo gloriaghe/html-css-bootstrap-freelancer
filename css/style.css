@@ -1,0 +1,17 @@
+/* header con jumbotron */
+body {
+    font-size: 16px;
+    /* debug */
+    color: darkgoldenrod;
+}
+header nav {
+    background-color: #2c3e50;
+    height: 90px;
+}
+
+#jumbotron {
+    background-color: #1abc9c;
+    /* debug */
+    height:580px
+}
+
