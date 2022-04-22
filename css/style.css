@@ -58,6 +58,24 @@ height: 100px;
     height: 200px;
 }
 
+/* footer */
+
+footer section  {
+    background-color: #3a546d;
+
+}
+
+footer > div{
+    background-color: #2c3e50;
+    height: 110px;
+}
+
+footer section div{
+    /* debug */
+    border: 2px solid white;
+    height: 90px;
+}
+
 /* regole responsive */
 
 @media screen and (min-width: 768px) {
