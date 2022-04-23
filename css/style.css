@@ -52,7 +52,7 @@ height: 100px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     /* debug */
     border: 2px solid black;
     height: 200px;
@@ -76,18 +76,3 @@ footer section div{
     height: 90px;
 }
 
-/* regole responsive */
-
-@media screen and (min-width: 768px) {
-    #portfolio {
-        width: 75%;
-    }
-
-}
-
-@media screen and (min-width: 1199px) {
-    #portfolio {
-        width: 85%;
-    }
-    
-}
