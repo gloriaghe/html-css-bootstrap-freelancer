@@ -12,10 +12,11 @@
     <title>Bootstrap freelancer</title>
 </head>
 <body>
-    <div class="container-sm">
+    <div class="container-fluid">
         <!-- header con jumbotron -->
         <header>
-            <nav id="navbar" class="navbar row navbar-expand-md navbar-light">
+            <!-- navbar BT -->
+            <nav id="navbar" class="navbar row navbar-expand-md navbar-dark">
                 <div class="container-fluid row">
                         <a class="navbar-brand col-5 col-md-2 offset-lg-1" id="title-nav" href="#">START BOOTSTRAP</a>
                         <button class="navbar-toggler col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +41,10 @@
                             </li>
                           </ul>
                         </div>
-                  
                 </div>
               </nav>
-            
+
+            <!-- jumbotron -->
             <section class="row justify-content-around" id="jumbotron" >
                 <div class="col-11 col-md-9 col-xl-6">
                     <div class="d-flex flex-column align-items-center">
@@ -65,22 +66,29 @@
         <!-- section portfolio -->
 
         <section">
-            <div>PORTFOLIO</div>
-            <section id="portfolio" class="row gy-5 justify-content-center ">
-                <img src="" alt="" class="col-11 col-md-5 col-xl-3">
-                <img src="" alt="" class="col-11 col-md-5 col-xl-3">
-                <img src="" alt="" class="col-11 col-md-5 col-xl-3">
+            <div id="text-portfolio" class="row">
+                <h2>PORTFOLIO</h2>
+                <div class="star-container col-12">
+                    <span class="star-line"></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span class="star-line"></span>
+                </div>
+            </div>
+            <section id="portfolio" class="row gy-4 justify-content-center ">
+                <img src="img/cabin.png" alt="cabin" class="col-12 col-md-5 col-xl-3">
+                <img src="img/cake.png" alt="cake" class="col-12 col-md-5 col-xl-3">
+                <img src="img/circus.png" alt="circus" class="col-12 col-md-5 col-xl-3">
                 <div class="w-100 d-none d-md-none d-xl-block"></div>
-                <img src="" alt="" class="col-11 col-md-5 col-xl-3">
-                <img src="" alt="" class="col-11 col-md-5 col-xl-3">
-                <img src="" alt="" class="col-11 col-md-5 col-xl-3">
+                <img src="img/game.png" alt="game" class="col-12 col-md-5 col-xl-3">
+                <img src="img/safe.png" alt="safe" class="col-12 col-md-5 col-xl-3">
+                <img src="img/submarine.png" alt="submarine" class="col-12 col-md-5 col-xl-3">
             </section>
         </section>
 
         <!-- section About -->
 
         <section id="about" class="row">
-            <div>ABOUT</div>
+            <h2>ABOUT</h2>
             <div id="about-text" class="row row-cols-1 row-cols-md-2 justify-content-center">
                <div class="col-7 col-md-4 col-xl-3"></div>
                <div class="col-7 col-md-4 col-xl-3"></div>
