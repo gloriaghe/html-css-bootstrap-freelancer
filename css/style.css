@@ -157,19 +157,58 @@ form .btn:hover {
 
 footer section  {
     background-color: #3a546d;
-
+    padding: 40px 0;
 }
 
-footer > div{
+#footer-information {
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer h5{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer span{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+#icon-footer  i{
+    font-size: 20px;
+    padding: 15px 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-twitter {
+    margin-right: 10px;
+}
+
+#icon-footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer a{
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+footer #copyright {
     background-color: #2c3e50;
-    height: 110px;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
-footer section div{
-    /* debug */
-    border: 2px solid white;
-    height: 90px;
-}
 
 @media screen and (max-width:767px) {
     #title-nav  {
@@ -198,11 +237,17 @@ footer section div{
     .star-line{
         width: 90px;
     }
+
+
 }
 
 @media screen and (min-width:1100px) {
 
     .star-line{
         width: 140px;
+    }
+
+    #footer-information {
+        width: 80%;
     }
 }
