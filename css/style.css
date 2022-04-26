@@ -6,7 +6,7 @@ body {
 
 
 
-/* modifica form BT */
+/* modifica nav BT */
 
 header #navbar {
     background-color: #2c3e50;
@@ -19,6 +19,9 @@ header #navbar {
     color:white;
 }
 
+.navbar-nav {
+    margin-right: 10%;
+}
 
 .text-white {
     font-weight: bold;
@@ -137,7 +140,7 @@ h2 {
 }
 
 form{
-    width: 80%;
+    width: 70%;
     margin-bottom: 50px;
     font-size: 20px;
 }
@@ -157,7 +160,7 @@ form .btn:hover {
 
 footer section  {
     background-color: #3a546d;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 #footer-information {
@@ -181,7 +184,7 @@ footer span{
 
 #icon-footer  i{
     font-size: 20px;
-    padding: 15px 15px;
+    padding: 13px 13px;
     border-radius: 50%;
     border: 1px solid white;
 }
@@ -189,7 +192,7 @@ footer span{
 .fa-facebook-f,
 .fa-google-plus-g,
 .fa-twitter {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 #icon-footer {
@@ -223,10 +226,18 @@ footer #copyright {
         font-size: 1.2rem;
     }
 
+    #avatar{
+        width: 50%;
+    }
     h2 {
         font-size: 1.7rem;
         font-weight: 600;
     }
+
+    footer h5 {
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (min-width:768px) {
