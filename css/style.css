@@ -19,9 +19,7 @@ header #navbar {
     color:white;
 }
 
-#navbar {
-    color: white;
-}
+
 .text-white {
     font-weight: bold;
 }
@@ -55,16 +53,21 @@ header #navbar {
 }
 
 .star-container{
-width: 80%;
-padding: 20px 0;
+    width: 80%;
+    padding: 20px 0;
+    text-align: center;
 }
+
 #jumbotron h1{
     font-size: 3rem;
     font-weight: 600;
 }
+
 #jumbotron h4{
     margin-bottom: 70px;
+    font-weight: 400;
 }
+
 /* section portfolio */
 
 #portfolio {
@@ -119,8 +122,30 @@ footer section div{
     height: 90px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
     #title-nav  {
         font-size: 16px;
+    }
+
+    .star-line{
+        width: 25%;
+    }
+
+    #jumbotron h1{
+        font-size: 2rem;
+    }
+
+    #jumbotron h4{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .navbar-nav {
+        padding-left: 20px;
+    }
+
+    .star-line{
+        width: 30%;
     }
 }
