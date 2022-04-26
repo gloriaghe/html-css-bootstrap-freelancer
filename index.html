@@ -110,11 +110,30 @@
 
         <!-- section contact me -->
         <section class="row">
-            <div id="contact" class="col-6">
+            <div id="contact">
                 <h2>CONTACT ME</h2>
+                <div class="star-container col-12">
+                    <span class="star-line"></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span class="star-line"></span>
+                </div>
+
+                <!-- form da BT -->
                 <form>
-                    
-                </form>
+                    <div class="mb-3">
+                      <input type="name" placeholder="Name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <input type="email" placeholder="Email address" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="mb-3">
+                        <input type="phone" placeholder="Phone number" class="form-control" id="exampleInputPhone" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="5"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                  </form>
             </div>
             
         </section>
